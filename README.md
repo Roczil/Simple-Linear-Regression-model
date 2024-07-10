@@ -1,62 +1,63 @@
-# Projekt: Regresja Liniowa z użyciem TensorFlow
+# Project: Linear Regression using TensorFlow
 
-## Opis projektu
-- **Temat projektu**: Regresja liniowa z użyciem TensorFlow.
-- **Cel projektu**: Trenowanie modelu regresji liniowej.
-- **Funkcjonalności projektu**: Generowanie danych, trenowanie modelu, wyświetlanie wyników.
-- **Technologie użyte w projekcie**: TensorFlow, Matplotlib, NumPy.
+## Project Description
+- **Project Topic**: Linear Regression using TensorFlow.
+- **Project Goal**: Train a linear regression model.
+- **Project Features**: Data generation, model training, result visualization.
+- **Technologies Used**: TensorFlow, Matplotlib, NumPy.
 
-## Instrukcja uruchomienia projektu
+## Project Setup Instructions
 
-1. Zainstaluj wymagane pakiety:
+1. Install the required packages:
     ```sh
     pip install -r requirements.txt
     ```
 
-2. Uruchom główny skrypt:
+2. Run the main script:
     ```sh
     python main.py
     ```
-## Analiza wymagań
 
-- **Wymagania funkcjonalne**:
-    - Generowanie danych treningowych.
-    - Trenowanie modelu regresji liniowej.
-    - Wizualizacja wyników.
+## Requirements Analysis
 
-- **Wymagania niefunkcjonalne**:
-    - Kod podzielony na moduły.
-    - Obsługa błędów i wyjątków.
-    - Testy jednostkowe.
+- **Functional Requirements**:
+    - Generate training data.
+    - Train a linear regression model.
+    - Visualize the results.
 
-## Implementacja
+- **Non-functional Requirements**:
+    - Code divided into modules.
+    - Error and exception handling.
+    - Unit tests.
 
-- **Struktura danych**: TensorFlow Variable, TensorFlow Tensor, NumPy .
-- **Klasa i atrybuty**: Klasa `Model` z atrybutami `weight` i `bias`.
-- **Moduły**: Kod podzielony na `main.py`, `model.py`, `utils.py`.
-- **Błędy i wyjątki**: Obsługa błędów w `main.py`.
-- **Generatory i listy składane**: Użyte w `generate_data`.
-- **Biblioteka standardowa**: Użyto Matplotlib do wizualizacji wyników.
-- **Framework AI**: Użyto TensorFlow do trenowania modelu.
+## Implementation
 
-## Testowanie
+- **Data Structure**: TensorFlow Variable, TensorFlow Tensor, NumPy.
+- **Class and Attributes**: Class `Model` with attributes `weight` and `bias`.
+- **Modules**: Code divided into `main.py`, `model.py`, `utils.py`.
+- **Errors and Exceptions**: Error handling in `main.py`.
+- **Generators and List Comprehensions**: Used in `generate_data`.
+- **Standard Library**: Matplotlib used for result visualization.
+- **AI Framework**: TensorFlow used for model training.
 
-### Implementacja testów jednostkowych
+## Testing
 
-Testy jednostkowe zostały zaimplementowane w pliku `test_model.py` przy użyciu frameworka `unittest`.
+### Unit Test Implementation
 
-### Wyniki testów
+Unit tests have been implemented in the `test_model.py` file using the `unittest` framework.
+
+### Test Results
 Ran 2 tests in 0.237s
 
 OK
 
-## Ewentualne poprawki
- ### Na obecnym etapie nie wykryto żadnych błędów w implementacji testowanej funkcjonalności. Kod działa zgodnie z oczekiwaniami. Dalsze usprawnienia mogą obejmować:
+## Possible Improvements
+### At this stage, no errors were detected in the tested functionality. The code works as expected. Future improvements may include:
 
-- **Rozszerzenie testów jednostkowych o dodatkowe scenariusze testowe.**
-- **Optymalizację procesu trenowania modelu.**
-- **Oparcie modelu AI na prawdziwych danych**
-### Wnioski
-Projekt został zrealizowany zgodnie z założeniami. Udało się zaimplementować model regresji liniowej, przetestować go i zwizualizować wyniki. 
-Dalsze prace mogą skupić się na rozszerzeniu funkcjonalności oraz optymalizacji kodu.
+- **Extending unit tests with additional test scenarios.**
+- **Optimizing the model training process.**
+- **Basing the AI model on real data.**
+
+### Conclusions
+The project was implemented as planned. A linear regression model was successfully implemented, tested, and visualized. Future work can focus on extending functionality and optimizing the code.
 
